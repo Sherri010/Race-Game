@@ -1,0 +1,135 @@
+
+body {
+	 background-image: url('milky.jpg');
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 margin:0px; padding:5px;
+	 height: 90vh;
+	 font-family: 'Rajdhani', sans-serif;
+}
+ul {
+	margin:0px;
+}
+p {
+	margin:2px;
+	color:#ffe680;
+	letter-spacing: 2px;
+ text-decoration: underline;
+ margin-left:15px;
+}
+li {font-size:22px;}
+.title{
+	font-family: 'Bungee Shade', cursive;
+	font-size: 60px;
+	color:#95b7b7;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+
+.button {
+	padding:10px;
+	background:rgba(163, 194, 194,0.5);
+	font-family: 'Rajdhani', sans-serif;
+	font-size:25px;
+	border:none;
+	color:#fff;
+	border-radius: 3px;
+	display:block;
+	margin:5px;
+}
+
+.blue {
+	   	position:absolute;
+ 	   	left:0px;
+	    top:0px;
+	    width:80px;
+	    padding:10px;
+	    font-size:16px;
+	    z-index: 5;
+
+}
+
+.red {
+	   	position:absolute;
+      left:0px;
+		  top:200px;
+			width:80px;
+			padding:10px;
+			font-size:16px;
+			z-index: 5;
+
+}
+
+.rotated {
+	  -webkit-transform: rotate(90deg);  /* to support Safari and Android browser */
+    -ms-transform: rotate(90deg);      /* to support IE 9 */
+    transform: rotate(90deg);
+}
+
+#finish-line {}
+#playground{
+	 min-height: 510px;
+	 max-width: 1400px;
+	 margin:100px 50px 50px 200px;
+   position:relative;
+	 border-right:dotted 5px #ffdd99;
+}
+#info-bar {
+	width:1000px;
+	margin:0 auto;
+	min-height:100px;
+/*	border:1px solid white;*/
+	padding:0px 40px;
+}
+#navs{
+	display: inline-block;
+	width:30%;
+}
+#timer {
+	color:#fff;
+	font-size: 40px;
+	display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+.scores{
+	float:right;
+	color:#FFF;
+	display: inline-block;
+	font-size:30px;
+	width:30%;
+	padding-top:10px;
+}
+
+.announce {
+	  background:rgba(255,255,255,0.2);
+		width:700px;
+		text-align: center;
+		font-size:60px;
+		color:#ffcc66;
+		margin:0 auto;
+		z-index: 7;
+}
+
+.rules{
+	background: rgba(255,255,255,0.2);
+	color:#ffd9b3;
+	margin:0 auto;
+	width:700px;
+	font-size:20px;
+	z-index:7;
+	padding:50px;
+	border-radius: 3px;
+	line-height:35px;
+
+}
+.small-bnt {
+	border:none;
+	padding:10px;
+	background:#95b7b7;
+	margin:0 auto;
+	display: block;
+	color:#fff;
+
+}
